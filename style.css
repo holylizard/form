@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ececec;
+}
+
+.backdrop-div {
+    width: 250px;
+    height: 450px;
+    background-color:#3f00ff;
+    margin: 100px 0 0 600px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.frontal-div {
+    width: 350px;
+    height: 380px;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 135px;
+    left: 450px;
+}
+
+.page-heading {
+    padding: 30px 0 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    margin: 0px 0 0 30px;
+}
+
+.form .form-label {
+    padding: 10px 0 5px 0;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.form input {
+    width: 250px;
+    height:40px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.form input[type="submit"] {
+    width: 100px;
+    margin: 20px 0 0 0;
+    background-color: #3f00ff;
+    border-radius: 20px;
+    color: white;
+}
+
+.password-recovery-paragraph {
+    display: inline;
+    padding-left: 20px;
+}
+
+.password-recovery-paragraph a {
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.no-account-paragrapgh {
+    padding: 20px 0 0 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+
+}
+
+.signup-paragraph {
+    padding: 15px 0 0 100px;
+}
+
+.signup-paragraph a {
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+/*RESPONSIVE STYLES*/
+
+@media screen and (max-width: 480px) {
+
+    .backdrop-div {
+        width: 250px;
+        height: 450px;
+        background-color:#3f00ff;
+        margin: 100px 20px 100px 180px;
+        border-radius: 6px;
+        position: relative;
+    }
+
+    .frontal-div {
+        width: 350px;
+        height: 380px;
+        background-color: white;
+        border-radius: 6px;
+        position: absolute;
+        top: 135px;
+        left: 50px;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 960px) {
+
+    .backdrop-div {
+        width: 250px;
+        height: 450px;
+        background-color:#3f00ff;
+        margin: 100px 0 0 350px;
+        border-radius: 6px;
+        position: relative;
+    }
+
+    .frontal-div {
+        width: 350px;
+        height: 380px;
+        background-color: white;
+        border-radius: 6px;
+        position: absolute;
+        top: 135px;
+        left: 200px;
+    }
+
+}
+
+
